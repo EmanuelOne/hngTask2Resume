@@ -63,6 +63,7 @@ const Home = () => {
   const [alert, setAlert] = useState(false);
   useEffect(() => {
     if (alert === false) {
+      window.scrollTo(0, 0);
       window.alert("My name is Emmanuel Ifeanyi Mechie");
       setAlert(true);
     }
@@ -106,12 +107,12 @@ const Home = () => {
               ></TypeIt>
             </div>
             <p>
-              I am Ayeni Daniel by name Experienced Backend Developer with a
-              demonstrated history of working in the information technology and
-              services industry. Skilled in Analytical Skills, Engineering,
-              Communication, Presentations, and Strategy. Strong engineering
-              professional with a Water Engineering focused in Software
-              Engineering .
+              I am Mechie Emmanuel Ifeanyi by name Experienced Backend Developer
+              with a demonstrated history of working in the information
+              technology and services industry. Skilled in Analytical Skills,
+              Engineering, Communication, Presentations, and Strategy. Strong
+              engineering professional with a Water Engineering focused in
+              Software Engineering .
             </p>
           </Container>
         </Div>

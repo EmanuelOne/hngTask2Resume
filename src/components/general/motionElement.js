@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import styled from "styled-components";
 
 export const Div = styled(motion.div)`
+  @media (max-width: 550px) {
+  }
   &.backdrop {
     background: rgba(0, 0, 0, 0.6);
     /* width:; */
@@ -121,5 +123,11 @@ export const Div = styled(motion.div)`
     svg {
       font-size: 30px;
     }
+  }
+  .zuriLogo {
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+    margin: auto;
   }
 `;

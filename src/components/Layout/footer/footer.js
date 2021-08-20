@@ -11,7 +11,9 @@ import {
   RiInstagramFill as Instagram,
   RiTwitterFill as Twitter,
 } from "react-icons/ri";
+import { AiOutlineGithub } from "react-icons/ai";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 const Footer = ({ setMessage }) => {
   // console.log(setMessage);
   // background-color: rgb(100, 0, 123);
@@ -121,9 +123,23 @@ const Footer = ({ setMessage }) => {
       )}
       <div className="icons">
         <FaceBook />
-        <LinkedIn />
+        <a
+          href="https://github.com/emanuelone"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <AiOutlineGithub />
+        </a>
         <Twitter />
       </div>
+      <a
+        href="https://zuri.team/"
+        className="zuriLogo"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="./images/zuriimage.png" alt="" />
+      </a>
     </Div>
   );
 };
