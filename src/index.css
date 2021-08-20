@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap);
+/* reset & common styles */
+body,
+ul,
+h1,
+h2,
+h3,
+p,
+button,
+a,
+div {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Quicksand";
+  letter-spacing: 2px;
+  list-style-type: none;
+  text-decoration: none;
+}
+body {
+  background: rgb(100, 0, 123);
+  background: radial-gradient(
+    circle,
+    rgba(100, 0, 123, 1) 0%,
+    rgba(62, 20, 86, 1) 100%
+  );
+  width: 100%;
+  /* padding: 0 20px; */
+  /* overflow: hidden; */
+}
+#root {
+  width: 100%;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  height: 15vh;
+  padding: 1rem 2rem;
+  background-color: rgba(70, 16, 94, 0.5);
+}
+.home {
+  /* height: 10000px; */
+}
+.body {
+  padding: 1rem 2rem;
+}
